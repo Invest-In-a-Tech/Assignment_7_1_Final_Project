@@ -14,7 +14,6 @@ eggs/
 notebooks/03_reports/*.html
 
 # Data, Models & Logs - These should be tracked by DVC, not Git
-data/
 models/
 logs/
 *.csv
