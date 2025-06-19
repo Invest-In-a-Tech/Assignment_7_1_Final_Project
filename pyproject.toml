@@ -1,0 +1,21 @@
+﻿[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_awesome_ai_project"
+version = "0.1.0"
+description = "A short description of the project."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+# dependencies = [
+#    "numpy",
+#    "pandas",
+# ]
+
+[project.urls]
+"Homepage" = "https://github.com/user/repo"
+"Bug Tracker" = "https://github.com/user/repo/issues"

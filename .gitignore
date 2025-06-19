@@ -1,0 +1,38 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints
+notebooks/03_reports/*.html
+
+# Data, Models & Logs - These should be tracked by DVC, not Git
+data/
+models/
+logs/
+*.csv
+*.pkl
+*.joblib
+*.h5
+*.parquet
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+.envrc
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.swp
+*~

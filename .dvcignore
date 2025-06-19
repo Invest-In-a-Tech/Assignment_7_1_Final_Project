@@ -1,0 +1,3 @@
+﻿# Ignoring raw and external data if they are very large and managed elsewhere
+data/01_raw/
+data/02_external/
